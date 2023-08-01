@@ -1,38 +1,379 @@
-.App {
+.container {
+  width: 98%;
+  max-width: 1800px;
+  border: 0px solid red;
+  margin: 0px auto;
+}
+
+.bg-main{
+  background-image: url(https://panaderia.qodeinteractive.com/wp-content/uploads/2019/07/h-6-background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.container-a {
+  width: 70%;
+  max-width: 1800px;
+  border: 0px solid red;
+  margin: 0px auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.sec1{
+  height: 100vh;
+}
+
+.navbar-brand img{
+  height: 40px;
+}
+
+.carousel img {
+  height: 92.8vh;
+}
+
+.heading-line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(220, 220, 220);
+  font-weight: bolder;
+  font-size: 500%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Navbar {
+  position: fixed;
+  top: 0%;
+}
+
+/*about*/
+.bg{
+  background-image:linear-gradient(to top, #715e44, #3d3325, #0a0806 );
+}
+
+.r {
+  /*border: 2px solid red; */
+  padding: 0px;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+.r .box-1, .box-2, .box-3{
+  padding: 50px 0px;
+  margin-top: 15%;
+}
+.r .box-1 h2,
+p {
+  margin-top: 0%;
+}
+
+.r .box-1 p {
+  margin-right: 80px;
+  margin-top: 5%;
+}
+
+.r .box-1 h2 {
+  color: #63523c;
+  font-weight: 900;
+  margin-top: 4%;
+  font-size: 55px;
+}
+
+.r .box-1 .b {
+  color: #fad8bd;
+  font-weight: 900;
+}
+
+.r .box-1 .a {
+  color: #fad8bd;
+  font-weight: 700;
+}
+
+.r .box-1 p {
+  color: #fff;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.r .box-1 {
+  flex: 45%;
+}
+
+.r .box-2,
+.box-3 {
+  /*border: 2px solid black; */
+  flex: 27.5%;
+}
+
+.r .box-2 img ,.box-3 img{
+  height: 440px;
+}
+
+.cake-img .row .col .so{
+  width: 500px;
+}
+
+
+.des{
+  padding: 7.5% 0%;
+}
+
+.des .row .col{
+  padding: 0%;
+}
+
+.des .des-head ,.des-text{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.des .des-head {
+margin-top: 12%;
+font-size: 40px;
+font-weight: 700;
+}
+
+.des .des-text{
+font-size: 28px;
+margin-top: 6%;
+}
+
+.r1 {
+  background-image: url(https://panaderia.qodeinteractive.com/wp-content/uploads/2019/03/h-5-background-1-1.jpg);
+  width: 100%;
+  padding: 2% 0%;
+}
+
+.r1 .cent{
+  margin-left: auto;
+  margin-right: auto;
+  width: 506px;
+}
+
+.r1 form div input,
+textarea {
+  padding: 2px 8px;
+  margin-top: 10px;
+}
+
+.r1 form div #email,
+#address,
+#datetime, #fname, #phone {
+  width: 503px;
+  height: 40px;
+  outline: none;
+}
+
+.r1 form textarea {
+  margin-top: 10px;
+  outline: none;
+  width: 503px;
+  height: 250px;
+}
+
+.r1 form h3{
+  text-shadow: 0px 0px 15px #ffffff;
+  letter-spacing: 12px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+  font-weight: 200;
+  color: #fff;
+  display: block;
+  text-align: center;
+
+}
+
+.r1 form label {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  margin-top: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.r1 form div #submit {
+  font-size: 22px;
+  padding: 8px 28px;
+  color: antiquewhite;
+  background-color: rgb(31, 30, 30);
+  border: none;
+  margin-left: 37%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.r1 form div #submit:hover {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 8px rgb(55, 55, 55);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer{
+  background-color: black;
+  color: #fff;
+  padding: 28px;
+}
+
+.foot1{
+  padding: 10px;
+  height: inherit;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer .foot1 .p1{
+ flex: 30%; 
+}
+
+.footer .foot1 .p1 img{
+  height: 150px;
+  margin-left: 50%;
+  filter: drop-shadow(1px 1px 1px rgb(216, 216, 215));
+}
+
+.footer .foot1 .p2{
+  flex: 30%; 
+}
+
+.footer .foot1 .p2 p{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30%;
+}
+
+.footer .foot1 .p3{
+  flex: 40%; 
+}
+
+.footer .foot1 .p3 h3{
+  margin-left: 28%;
+}
+
+.footer .foot1 .p3 .a-svg{
+  margin-left: 18%;
+}
+
+.footer .foot1 .p3 svg{
+  height: 50px;
+  width: 58px;
+  margin-right: 1px;
+}
+
+.footer .foot1 .p3 .call :hover{
+  fill: #00c300;
+}
+.footer .foot1 .p3 .mail :hover{
+  fill: #dc4e41;
+}
+.footer .foot1 .p3 .insta :hover{
+  fill: #ffc838;
+}
+.footer .foot1 .p3 .twit :hover{
+  fill: #55acee
+  ;
+}
+.footer .foot1 .p3 .fb :hover{
+  fill: #3b5998;
+}
+
+.foot2{
+  border-top: 2px dashed rgb(118, 115, 115);
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+}
+
+.foot2 p{
+  margin-top: 8px;
+  letter-spacing: 6px;
+}
+
+/*mui button*/
+.btnn{
+  border: 4px solid #fff;
+  color: #fff;
+  padding: 12px 12px;
+  border-radius: 16px;
+  background-color: transparent;
+  font-size: larger;
+  font-weight: 900;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  opacity: 0.6;
+  left: 45%;
+  right: 45%;
+  position: absolute;
+  top: 60%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 160px;
 }
 
-.App-link {
-  color: #61dafb;
+.btnn:hover{
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*about*/
+
+.chef{
+  background-image: url(https://1.bp.blogspot.com/-kpY9lr-a4Ec/X28_Tw6qvVI/AAAAAAAAFd4/1e6LHcbgYXQfWLTBkqfBUBNRN16gU0Z2gCLcBGAsYHQ/s733/Top-Famous-Indian-Chefs.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 92vh;
 }
+
+.chef .about-bg {
+  position: absolute;
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  color: #fff;
+  /*color: rgb(220, 220, 220);*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.chef .about-bg .chef-line{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.chef .about-bg .chef-text{
+  position: absolute;
+  top: 38%;
+  left: 15%;
+}
+
+.cake{
+  text-align: center;
+  padding: 2% 10%;
+}
+
+/*cake img*/
+.cake-img .row .col .si{
+  width: 400px;
+  height: 370px;
+}
+
+.bottom-near{
+  margin-bottom: 12%;
+}
+
+.top-near{
+  padding-top: 8%;
+}
+
+.top-near-a{
+  padding-top: 36px;
+}
+
